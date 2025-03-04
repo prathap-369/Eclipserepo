@@ -5,6 +5,9 @@ public class Myclass {
 	private void sysout1() {
 		// TODO Auto-generated method stub
          System.out.println("hlooooos"+"jjj");
+		 System.out.println("iam ginog");
+		 System.out.println("bye");
+	
 	}
 	public static void main(String[] args) {
 		int n= 78;

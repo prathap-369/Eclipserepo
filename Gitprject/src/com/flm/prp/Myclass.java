@@ -12,19 +12,22 @@ public class Myclass {
 		System.out.println(a);
 		System.out.println(n%2==0);
 		System.out.println("hlooooos"+"jjj");
-		int j=1;
-		String s="hihi";
+		
+		String s="hih";
 		String newString="";
-		String os ="prp";
+		
 		int i;
-		for(i=0;i<s.length();i++) {
+		for(i=s.length()-1;i>=0;i--) {
 			
-			newString+=s.charAt(i);
-		if(j==i)
-			newString+=os;}
+			newString+=String.valueOf(s.charAt(i));
+		}
 			
 		System.out.println(newString);
+		if(s.equalsIgnoreCase(newString))
+			System.out.println("pal");
+		else
+			System.out.println("notpal");
 	}
 	  
-
 }
+

@@ -7,8 +7,9 @@ public class Myclass {
          System.out.println("hlooooos"+"jjj");
 	}
 	public static void main(String[] args) {
+		int a=90;
 		int n= 78;
-		
+		System.out.println(a);
 		System.out.println(n%2==0);
 		System.out.println("hlooooos"+"jjj");
 		int j=1;
